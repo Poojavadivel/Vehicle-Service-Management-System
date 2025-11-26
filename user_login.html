@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login Options</title>
+    <style>
+        body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('userimage.jpg') no-repeat center center fixed; /* Background image */
+      background-size: cover; /* Ensures the image covers the entire screen */
+      color: #ffffff;
+    }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 350px;
+            border: 1px solid #ddd;
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #66b3ff; /* Light Blue */
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            width: 90%; /* Fit inside the white box */
+            max-width: 300px; /* Prevent oversized buttons */
+            transition: all 0.3s ease-in-out;
+            text-align: center;
+            display: inline-block;
+            margin: 10px auto; /* Center the buttons */
+        }
+        .button:hover {
+            background-color: #3399ff; /* Slightly darker blue on hover */
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>User Login</h2>
+        <a href="register.html" class="button">New Customer Registration</a>
+        <a href="check_status.php" class="button">Check Service Status</a>
+    </div>
+
+</body>
+</html>
+

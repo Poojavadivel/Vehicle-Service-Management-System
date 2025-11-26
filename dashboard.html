@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title style="color: black;">Vehicle Service Center - Dashboard</title> 
+  <style>
+    /* Reset Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Background Styling */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('image.png') no-repeat center center fixed; /* Background image */
+      background-size: cover; /* Ensures the image covers the entire screen */
+      color: #ffffff;
+    }
+
+    /* Centered Container */
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8); /* Slight transparency for readability */
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+      width: 360px;
+    }
+
+    /* Heading */
+    h2 {
+      font-size: 26px;
+      margin-bottom: 25px;
+      font-weight: 600;
+      color: #000000;
+    }
+
+    /* Buttons */
+    .btn {
+      display: block;
+      text-decoration: none;
+      background-color: #4a90e2;
+      color: #ffffff;
+      font-weight: 600;
+      padding: 14px;
+      margin: 12px 0;
+      border-radius: 6px;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #357ab8;
+      transform: translateY(-2px);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        width: 90%;
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to Vehicle Service Center</h2>
+    <a href="user_login.html" class="btn">User Login</a>
+    <a href="staff_login.php" class="btn">Staff Login</a>
+    <a href="admin_login.php" class="btn">Admin Login</a>
+  </div>
+</body>
+</html>
